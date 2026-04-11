@@ -9,7 +9,7 @@ $directory\
 [ ](fg:green)\
 $git_branch\
 $git_status\
-$all\
+$all \
 $character"""
 
 [line_break]
