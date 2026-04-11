@@ -78,12 +78,6 @@
                     "command": "blueman-manager"
                 },
                 {
-                    "label":"󰤄",
-                    "command": "swaync-client -d",
-                    "type":"toggle"
-                },
-
-                {
                     "label": "󰀟",
                     "command": "gnome-network-displays"
                 },
@@ -105,6 +99,11 @@
                 {
                     "label": "",
                     "command": "hyprlock"
+                },
+                {
+                    "label":"󰤄",
+                    "command": "systemctl suspend",
+                    "type":"toggle"
                 },
                 {
                     "label":"",
