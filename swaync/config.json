@@ -102,8 +102,7 @@
                 },
                 {
                     "label":"󰤄",
-                    "command": "systemctl suspend",
-                    "type":"toggle"
+                    "command": "systemctl suspend"
                 },
                 {
                     "label":"",
