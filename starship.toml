@@ -88,7 +88,7 @@ symbol = "  "
 format = '[$symbol($version)]($style)'
 
 [git_branch]
-symbol = "  "
+symbol = " " 
 format = '[$symbol($branch) ($version)]($style)'
 
 [git_commit]
