@@ -1,12 +1,13 @@
+palette = "cores"
+
 format = """ 
-\
-[](fg:blue)\
+[█](fg:blue)\
 $os\
-[](bg:blue fg:red)\
+[](bg:white fg:blue)\
 $username\
-[](bg:red fg:green)\
+[](bg:cinza_escuro fg:white)\
 $directory\
-[ ](fg:green)\
+[ ](fg:cinza_escuro)\
 $git_branch\
 $git_status\
 ($all )\
@@ -15,9 +16,14 @@ $character"""
 [line_break]
 disabled = true
 
+[palettes.cores]
+cinza_escuro = "#444444"
+cinza_fechado = "#9CA4B5"
+cinza_medio = "#BAC3CF"
+
 [username]
 show_always = true
-format = '[$user ](bg:red fg:black)'
+format = '[ $user](bg:white fg:black)'
 disabled = false
 
 [os]
@@ -74,7 +80,7 @@ Windows = "󰍲 "
 format = "[$duration](fg:red)"
 
 [directory]
-format = "[$path](bg:green fg:black)"
+format = "[ $path](bg:cinza_escuro fg:cinza_fechado)"
 truncation_length = 2
 truncation_symbol = "…/"
 
@@ -88,7 +94,8 @@ symbol = "  "
 format = '[$symbol($version)]($style)'
 
 [git_branch]
-symbol = " " 
+symbol = " "
+style = "fg:cinza_medio"
 format = '[$symbol($branch) ($version)]($style)'
 
 [git_commit]
