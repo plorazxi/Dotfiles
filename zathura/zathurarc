@@ -1,0 +1,17 @@
+set database sqlite
+
+# 1. Defina as cores do Tema Dark (quando o recolor estiver ligado)
+
+# Light
+#set recolor-lightcolor    "#bdb995" # Cor do texto (um creme/cinza claro)
+#set recolor-darkcolor     "#1F1F1F" # Cor do fundo (um cinza bem escuro)
+
+# Dark
+set recolor-lightcolor    "#1F1F1F" # Cor do texto (um creme/cinza claro)
+set recolor-darkcolor     "#bdb995" # Cor do fundo (um cinza bem escuro)
+
+# 3. Garante que as cores das imagens não fiquem invertidas (opcional)
+set recolor-keephue       "true"
+
+# 4. Iniciar com o modo Dark desativado (opcional)
+set recolor               "true"
