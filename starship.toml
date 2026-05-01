@@ -10,6 +10,7 @@ $directory\
 [ ](fg:cinza_escuro)\
 $git_branch\
 $git_status\
+$python\
 ($cmd_duration )\
 $character"""
 
@@ -101,3 +102,6 @@ format = '[$symbol($branch) ($version)]($style)'
 [git_commit]
 tag_symbol = '  '
 format = '[$symbol($version)]($style)'
+
+[python]
+format = '[(\($virtualenv\) )](fg:cinza_medio)'
