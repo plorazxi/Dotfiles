@@ -1,0 +1,20 @@
+[general]
+framerate = 60
+bars = 0
+sensitivity = 100
+
+[smoothing]
+monstercat = 1
+integral = 77
+
+[output]
+method = ncurses
+
+[color]
+gradient = 1
+; Cinza escuro (base da arvore e céu noturno)
+gradient_color_1 = '#26262b'
+; Cinza médio (a névoa no meio do céu)
+gradient_color_2 = '#6a6973'
+; Branco pálido/prateado (as estrelas e o horizonte claro)
+gradient_color_3 = '#dce1e6'
