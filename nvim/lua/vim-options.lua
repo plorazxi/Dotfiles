@@ -20,8 +20,6 @@ map("v", "<C-S-k>", "d", { desc = "Deletar linha" })
 
 -- Copiar (Ctrl+C) e Colar (Ctrl+V) usando a área de transferência do sistema
 map("v", "<C-c>", '"+y', { desc = "Copiar para o sistema" })
-map("n", "<C-v>", '"+p', { desc = "Colar do sistema" })
-map("i", "<C-v>", '<C-r>+', { desc = "Colar do sistema" })
 
 -- Mover linha para cima/baixo com Alt+Setas (clássico do VSCode)
 map("n", "<A-Up>", ":m .-2<CR>==^", { desc = "Mover linha para cima" })
