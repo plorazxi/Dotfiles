@@ -71,9 +71,7 @@
                 "action": {
                     "args": {
                     },
-                    "id": "ambxst.config",
-                    "layouts": [
-                    ]
+                    "id": "ambxst.config"
                 },
                 "key": "I",
                 "modifiers": [
@@ -166,9 +164,7 @@
                 "action": {
                     "args": {
                     },
-                    "id": "ambxst.screenshot",
-                    "layouts": [
-                    ]
+                    "id": "ambxst.screenshot"
                 },
                 "key": "S",
                 "modifiers": [
@@ -1412,180 +1408,6 @@
                 }
             ],
             "name": "Display On on Lid Open"
-        },
-        {
-            "actions": [
-                {
-                    "args": {
-                        "direction": "u"
-                    },
-                    "id": "scrolling.focus",
-                    "layouts": [
-                        "scrolling"
-                    ]
-                },
-                {
-                    "args": {
-                        "direction": "u"
-                    },
-                    "id": "window.focus",
-                    "layouts": [
-                        "dwindle",
-                        "master"
-                    ]
-                }
-            ],
-            "enabled": true,
-            "keys": [
-                {
-                    "key": "Up",
-                    "modifiers": [
-                        "SUPER"
-                    ]
-                },
-                {
-                    "key": "k",
-                    "modifiers": [
-                        "SUPER",
-                        "CTRL"
-                    ]
-                }
-            ],
-            "name": "Focus Up"
-        },
-        {
-            "actions": [
-                {
-                    "args": {
-                        "direction": "d"
-                    },
-                    "id": "scrolling.focus",
-                    "layouts": [
-                        "scrolling"
-                    ]
-                },
-                {
-                    "args": {
-                        "direction": "d"
-                    },
-                    "id": "window.focus",
-                    "layouts": [
-                        "master",
-                        "dwindle"
-                    ]
-                }
-            ],
-            "enabled": true,
-            "keys": [
-                {
-                    "key": "Down",
-                    "modifiers": [
-                        "SUPER"
-                    ]
-                },
-                {
-                    "key": "j",
-                    "modifiers": [
-                        "SUPER",
-                        "CTRL"
-                    ]
-                }
-            ],
-            "name": "Focus Down"
-        },
-        {
-            "actions": [
-                {
-                    "args": {
-                        "direction": "l"
-                    },
-                    "id": "scrolling.focus",
-                    "layouts": [
-                        "scrolling"
-                    ]
-                },
-                {
-                    "args": {
-                        "direction": "l"
-                    },
-                    "id": "window.focus",
-                    "layouts": [
-                        "dwindle",
-                        "master"
-                    ]
-                }
-            ],
-            "enabled": true,
-            "keys": [
-                {
-                    "key": "Left",
-                    "modifiers": [
-                        "SUPER"
-                    ]
-                },
-                {
-                    "key": "z",
-                    "modifiers": [
-                        "SUPER",
-                        "CTRL"
-                    ]
-                },
-                {
-                    "key": "h",
-                    "modifiers": [
-                        "SUPER",
-                        "CTRL"
-                    ]
-                }
-            ],
-            "name": "Focus Left"
-        },
-        {
-            "actions": [
-                {
-                    "args": {
-                        "direction": "r"
-                    },
-                    "id": "scrolling.focus",
-                    "layouts": [
-                        "scrolling"
-                    ]
-                },
-                {
-                    "args": {
-                        "direction": "r"
-                    },
-                    "id": "window.focus",
-                    "layouts": [
-                        "master",
-                        "dwindle"
-                    ]
-                }
-            ],
-            "enabled": true,
-            "keys": [
-                {
-                    "key": "Right",
-                    "modifiers": [
-                        "SUPER"
-                    ]
-                },
-                {
-                    "key": "x",
-                    "modifiers": [
-                        "SUPER",
-                        "CTRL"
-                    ]
-                },
-                {
-                    "key": "l",
-                    "modifiers": [
-                        "SUPER",
-                        "CTRL"
-                    ]
-                }
-            ],
-            "name": "Focus Right"
         },
         {
             "actions": [
