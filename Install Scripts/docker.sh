@@ -1,5 +1,5 @@
 # Instalando o Docker
-sudo pacman -Syu docker
+sudo pacman -Syu docker docker-compose
 
 # Adicionando o USER ao grupo do Docker
 sudo usermod -aG docker $USER
