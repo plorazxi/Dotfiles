@@ -188,11 +188,16 @@
             "action": {
                 "args": {
                 },
-                "id": "ambxst.tmux"
+                "id": "ambxst.tmux",
+                "layouts": [
+                ]
             },
             "key": "T",
             "modifiers": [
-                "SUPER"
+                "SUPER",
+                "SHIFT",
+                "CTRL",
+                "ALT"
             ]
         },
         "wallpapers": {
