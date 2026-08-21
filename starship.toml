@@ -5,6 +5,7 @@ format = """
 $os\
 [](bg:white fg:blue)\
 $username\
+$hostname\
 [](bg:cinza_escuro fg:white)\
 $directory\
 [ ](fg:cinza_escuro)\
@@ -24,8 +25,12 @@ cinza_medio = "#BAC3CF"
 
 [username]
 show_always = true
-format = '[ $user](bg:white fg:black)'
+format = '[ $user](bg:white fg:black bold)'
 disabled = false
+
+[hostname]
+disabled = false
+format = '[@$hostname](bg:white fg:black bold)'
 
 [os]
 disabled = false
